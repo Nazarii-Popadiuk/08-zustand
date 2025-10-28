@@ -1,4 +1,18 @@
+import { Metadata } from 'next';
 import styles from './page.module.css'
+
+export const metadata: Metadata = {
+  title: "Not found page",
+  description: "Unfirtunately, there is no page you're looking for...",
+  openGraph: {
+    title: "Not found page",
+    description: "Unfirtunately, there is no page you're looking for...",
+    url: `/`,
+    images: [{url: `https://ac.goit.global/fullstack/react/notehub-og-meta.jpg`, width: 1200,
+          height: 630,
+          alt: "Page is not found",}]
+  }
+};
 
 const NotFound = () => {
     return (
