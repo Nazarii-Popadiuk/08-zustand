@@ -16,7 +16,7 @@ type NoteDraftStore = {
 const initialDraft: NoteDraft = {
   title: '',
   content: '',
-  tag: '',
+  tag: 'Todo',
 };
 
 export const useNoteDraftStore = create<NoteDraftStore>()(persist((set) => ({

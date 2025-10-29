@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Create note",
     description: "Page for creating new notes",
-    url: `/`,
+    url: `https://solid-suns-happen.loca.lt/notes/action/create`,
     images: [{url: `https://ac.goit.global/fullstack/react/notehub-og-meta.jpg`, width: 1200,
           height: 630,
           alt: "Create note page",}]
